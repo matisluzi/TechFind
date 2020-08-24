@@ -1,7 +1,19 @@
 ﻿productTypeName,name,company,price,link
-Phones,iPhone 11 Pro Max,Apple,1099,https://www.apple.com/shop/buy-iphone/iphone-11-pro
-Phones,iPhone 11 Pro,Apple,999,https://www.apple.com/shop/buy-iphone/iphone-11-pro
-Phones,iPhone 11,Apple,699,https://www.apple.com/shop/buy-iphone/iphone-11
-Laptops,MacBook Pro 13-inch,Apple,1299,https://www.apple.com/shop/buy-mac/macbook-pro/13-inch
-Laptops,MacBook Pro 16-inch,Apple,1299,https://www.apple.com/shop/buy-mac/macbook-pro/16-inch
-Laptops,MacBook Air,Apple,899,https://www.apple.com/shop/buy-mac/macbook-pro/16-inch
+Phones,iPhone 11 Pro Max,Apple,1099,https://www.gsmarena.com/apple_iphone_11_pro_max-9846.php
+Phones,iPhone 11 Pro,Apple,999,https://www.gsmarena.com/apple_iphone_11_pro-9847.php
+Phones,iPhone 11,Apple,699,https://www.gsmarena.com/apple_iphone_11-9848.php
+Phones,iPhone SE,Apple,399,https://www.gsmarena.com/apple_iphone_se_(2020)-10170.php
+Phones,Galaxy Note 20 Ultra 5G,Samsung,1299,https://www.gsmarena.com/samsung_galaxy_note20_ultra_5g-10261.php
+Phones,Galaxy Note 20 5G,Samsung,999,https://www.gsmarena.com/samsung_galaxy_note20_5g-10325.php
+Phones,Galaxy S20 Plus,Samsung,709,https://www.gsmarena.com/samsung_galaxy_s20+-10080.php
+Phones,Galaxy S20,Samsung,679,https://www.gsmarena.com/samsung_galaxy_s20-10081.php
+Phones,OnePlus 8 Pro,OnePlus,999,https://www.gsmarena.com/oneplus_8_pro-9919.php
+Phones,OnePlus 8,OnePlus,699,https://www.gsmarena.com/oneplus_8-10161.php
+,,,,
+Laptops,MacBook Pro 16-inch,Apple,2399,https://www.theverge.com/2019/11/21/20974649/apple-macbook-pro-16-inch-laptop-review-keyboard-test-specs-price-features
+Laptops,MacBook Air,Apple,899,https://www.theverge.com/2020/3/26/21195008/apple-macbook-air-review-2020-new-keyboard-processor-battery-life-camera-price
+Laptops,XPS 13,Dell,1099,https://www.theverge.com/2020/4/15/21221003/dell-xps-13-2020-review-core-i7-specs-features-price
+Laptops,ROG Zephyrus G14,Asus,1449,https://www.theverge.com/2020/3/30/21197761/asus-rog-zephyrus-g14-review-gaming-laptop-specs-features-price
+Laptops,Envy X360,HP,869,https://www.theverge.com/21319378/hp-envy-x360-2020-amd-review-price-specs-features
+Laptops,Spectre X360 13,HP,1299,https://www.theverge.com/2019/12/16/21022770/hp-spectre-x360-13-2019-laptop-2-in-1-convertible-review-price-specs-features
+Laptops,MacBook Pro 16-inch,Apple,1799,https://www.theverge.com/21256520/apple-13-inch-macbook-pro-2020-review-keyboard-specs-price-features

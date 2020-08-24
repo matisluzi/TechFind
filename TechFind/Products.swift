@@ -24,11 +24,11 @@ struct Product: Hashable {
 struct ProductType: Hashable {
     let name: String
     let icon: IcofontType
-
+    
     static func == (lhs: ProductType, rhs: ProductType) -> Bool {
         return (lhs.name == rhs.name && lhs.icon == rhs.icon)
     }
-
+    
     func hash(into hasher: inout Hasher) {
         hasher.combine(name)
         hasher.combine(icon)
@@ -56,16 +56,18 @@ func load_DB() {
         let fileURL = Bundle.main.url(forResource: "db", withExtension: "csv")!
         let stream = InputStream(url: fileURL)!
         let csv = try CSVReader(stream: stream, hasHeaderRow: true)
-
+        
         while csv.next() != nil {
-            // populate productDB
-            productDB.append(Product(
-                name: csv["name"]!,
-                company: csv["company"]!,
-                price: Double(csv["price"]!)!,
-                productTypeName: csv["productTypeName"]!,
-                link: URL(string: csv["link"]!)!)
-            )
+            if (csv["name"]! != "" && csv["company"]! != "" && csv["price"]! != "" && csv["productTypeName"]! != "" && csv["link"]! != "") {
+                // populate productDB
+                productDB.append(Product(
+                    name: csv["name"]!,
+                    company: csv["company"]!,
+                    price: Double(csv["price"]!)!,
+                    productTypeName: csv["productTypeName"]!,
+                    link: URL(string: csv["link"]!)!)
+                )
+            }
         }
     }
     catch {
